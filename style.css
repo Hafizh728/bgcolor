@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f7f7f7;
+  padding: 24px;
+  border-radius: 16px;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.title {
+  font-size: 10vw;
+  font-family: "Silkscreen", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f7f7f7;
+}
+.red {
+  background-color: #fc3131;
+}
+.yellow {
+  background-color: #f2fc1e;
+}
+.green {
+  background-color: #33f868;
+}
+.blue {
+  background-color: #20e5ff;
+}
